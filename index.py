@@ -13,7 +13,7 @@ class loginPage(object):
         self.width = 1100
         self.height = 600
         self.backgroundColor = "background-color:rgb(31,31,31); color:white;"
-        self.iconName = "icon.png"
+        self.iconName = ""
     def initUi(self, Window):
         self.loginPage = Window
         Window.setWindowIcon(QtGui.QIcon(self.iconName))
